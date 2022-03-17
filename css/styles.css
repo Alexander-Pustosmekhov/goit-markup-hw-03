@@ -376,6 +376,10 @@ h6 {
   border-top: 0px;
 }
 
+.image {
+  display: block;
+}
+
 /* Footer */
 .footer {
   background-color: var(--hero-background-color);
