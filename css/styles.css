@@ -285,6 +285,10 @@ h6 {
   width: 270px;
 }
 
+.title-section-features {
+  display: none;
+}
+
 /* Чем мы занимаемся */
 .we-do-list {
   display: flex;
