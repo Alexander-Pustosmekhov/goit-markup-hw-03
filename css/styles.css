@@ -50,8 +50,6 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid tomato; */
@@ -239,6 +237,8 @@ h6 {
   background-color: var(--team-background-color);
 
   margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .text {
@@ -291,6 +291,11 @@ h6 {
   display: none;
 }
 
+.our-features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Чем мы занимаемся */
 .we-do-list {
   display: flex;
@@ -301,6 +306,11 @@ h6 {
 }
 
 .we-do-section {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
+.section.we-do {
   padding-top: 0px;
   padding-bottom: 94px;
 }
@@ -330,11 +340,21 @@ h6 {
 }
 
 .name {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
+.card-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Section example */
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .example .company {
   font-weight: 700;
   font-size: 18px;
@@ -417,10 +437,19 @@ h6 {
 
 .adress {
   padding-left: 0px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .footer .container {
   margin-bottom: 0px;
+}
+
+.adres-list {
+  margin-top: 20px;
+}
+
+.street-adress,
+.mail-adress {
+  margin-bottom: 9px;
 }
