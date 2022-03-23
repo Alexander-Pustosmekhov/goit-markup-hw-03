@@ -81,6 +81,8 @@ h6 {
 .header {
   margin-bottom: 0px;
   border: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header .list {
@@ -144,8 +146,6 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .mail {
@@ -305,11 +305,6 @@ h6 {
   margin-bottom: 0px;
 }
 
-.we-do-section {
-  padding-top: 0px;
-  padding-bottom: 94px;
-}
-
 .section.we-do {
   padding-top: 0px;
   padding-bottom: 94px;
@@ -328,7 +323,7 @@ h6 {
   line-height: 1.19;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .section-team .container {
@@ -344,8 +339,8 @@ h6 {
 }
 
 .card-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Section example */
@@ -418,7 +413,7 @@ h6 {
   background-color: var(--hero-background-color);
 }
 
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
